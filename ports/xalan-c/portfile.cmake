@@ -22,6 +22,8 @@ vcpkg_extract_source_archive_ex(
         0005-fix-ftbfs-ld-as-needed.patch
         0006-fix-testxslt-segfault.patch
         0007-fix-readme-typos.patch
+        0008-remove-unary-binary-function.patch
+        0009-remove-select-workaround.patch
 )
 
 if (VCPKG_TARGET_ARCHITECTURE MATCHES "x86")
